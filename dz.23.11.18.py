@@ -5,10 +5,10 @@ b = float(input("Введите значение b="))
 if i > b:
    # 7 строка производит обмен
     i, b = b, i
-    while i < b:
+    while i <= b:
         print(i)
         i = i * i + 1
 else:
-    while i < b:
+    while i <= b:
         print(i)
         i = i * i + 1
